@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Products from "./components/Products";
+import Product from "./components/Product";
+import PaginatedProducts from "./components/PaginatedProducts";
+import AddProduct from "./components/AddProduct";
+import EditProduct from "./components/EditProduct";
+import DeleteProduct from "./components/DeleteProduct";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Tanstack Query - React Query</h1>
+      {/* <Products />
+      <Product /> */}
+      {/* <PaginatedProducts /> */}
+      {/* <AddProduct /> */}
+      {/* <EditProduct /> */}
+      <DeleteProduct />
     </div>
   );
 }
